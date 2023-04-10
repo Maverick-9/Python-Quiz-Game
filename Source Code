@@ -1,0 +1,128 @@
+
+
+print("Welcome to the general knowledge quiz!")
+score = 0
+
+
+print("\nQuestion 1: What is the capital city of France?")
+print("A. London")
+print("B. Paris")
+print("C. Madrid")
+answer1 = input("Your answer (enter A, B, or C): ").upper()
+if answer1 == "B":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 2: Who was the first person to walk on the moon?")
+print("A. Neil Armstrong")
+print("B. Buzz Aldrin")
+print("C. Yuri Gagarin")
+answer2 = input("Your answer (enter A, B, or C): ").upper()
+if answer2 == "A":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 3: What is the smallest country in the world by land area?")
+print("A. Monaco")
+print("B. San Marino")
+print("C. Vatican City")
+answer3 = input("Your answer (enter A, B, or C): ").upper()
+if answer3 == "C":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 4: Which element is represented by the chemical symbol Fe?")
+print("A. Iron")
+print("B. Gold")
+print("C. Silver")
+answer4 = input("Your answer (enter A, B, or C): ").upper()
+if answer4 == "A":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 5: What is the capital city of Australia?")
+print("A. Sydney")
+print("B. Melbourne")
+print("C. Canberra")
+answer5 = input("Your answer (enter A, B, or C): ").upper()
+if answer5 == "C":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 6: In which year did World War II end?")
+print("A. 1943")
+print("B. 1945")
+print("C. 1947")
+answer6 = input("Your answer (enter A, B, or C): ").upper()
+if answer6 == "B":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 7: Which ocean is the largest by area?")
+print("A. Atlantic Ocean")
+print("B. Pacific Ocean")
+print("C. Indian Ocean")
+answer7 = input("Your answer (enter A, B, or C): ").upper()
+if answer7 == "B":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+
+print("\nQuestion 8: Who painted the famous artwork 'Starry Night'?")
+print("A. Vincent van Gogh")
+print("B. Pablo Picasso")
+print("C. Claude Monet")
+answer8 = input("Your answer (enter A, B, or C): ").upper()
+if answer8 == "A":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+# Question 9: What is the highest mountain in the world?
+print("\nQuestion 9: What is the highest mountain in the world?")
+print("A. Mount Kilimanjaro")
+print("B. Mount Everest")
+print("C. Mount Fuji")
+answer9 = input("Your answer (enter A, B, or C): ").upper()
+if answer9 == "B":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+
+# Question 10: Who wrote the 'Harry Potter' book series?
+print("\nQuestion 10: Who wrote the 'Harry Potter' book series?")
+print("A. J.K. Rowling")
+print("B. Stephenie Meyer")
+print("C. Suzanne Collins")
+answer10 = input("Your answer (enter A, B, or C): ").upper()
+if answer10 == "A":
+  print("Correct!")
+  score += 1
+else:
+  print("Incorrect.")
+  
+# Print final score
+print("\nYour final score is:", score, "out of 10.")
+
